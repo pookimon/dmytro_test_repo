@@ -1,0 +1,8 @@
+#!/usr/bin/groovy
+    node("Yocto") {
+
+        checkout scm
+ //       def manifests = load "ci-scripts/yocto.groovy"
+
+//        manifests.buildManifest(variant, image)
+}
